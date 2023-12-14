@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "494162823050",
+    "firebase_url": "https://gameproject-bdc8b-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "gameproject-bdc8b",
+    "storage_bucket": "gameproject-bdc8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494162823050:android:3b997eb6703423d4afea73",
+        "android_client_info": {
+          "package_name": "com.Test.GameProject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf0duCcYBX9Q6W9RMiGM7HLi-BlUX-vvE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

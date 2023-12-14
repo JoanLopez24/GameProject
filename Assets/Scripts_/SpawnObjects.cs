@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Firebase.Database;
 using UnityEngine;
 
 public class SpawnObjects : MonoBehaviour
@@ -9,10 +10,32 @@ public class SpawnObjects : MonoBehaviour
     public int columns = 4; // Número de columnas
     private GameObject[] gameObjects; // Array para guardar los GameObjects instanciados
     private List<int> randomIDs; // Lista para guardar 20 IDs aleatorios
-    
+    // Start is called before the first frame update
+    private Firebase.FirebaseApp app;
+    private DatabaseReference reference;
 
     void Start()
     {
+        
+        Firebase.FirebaseApp.CheckAndFixDependenciesAsync().ContinueWith(task => {
+            var dependencyStatus = task.Result;
+            if (dependencyStatus == Firebase.DependencyStatus.Available) {
+                // Create and hold a reference to your FirebaseApp,
+                // where app is a Firebase.FirebaseApp property of your application class.
+                // app = Firebase.FirebaseApp.DefaultInstance;
+                app = Firebase.FirebaseApp.Create();
+        
+                // Set a flag here to indicate whether Firebase is ready to use by your app.
+            } else {
+                UnityEngine.Debug.LogError(System.String.Format(
+                    "Could not resolve all Firebase dependencies: {0}", dependencyStatus));
+                // Firebase Unity SDK is not safe to use here.
+            }
+        });
+        
+        // Get the root reference location of the database.
+        reference = FirebaseDatabase.DefaultInstance.RootReference;
+        
         gameObjects = new GameObject[rows * columns]; // Inicializa el array
         randomIDs = new List<int>(); // Inicializa la lista
         float xOffset = cube.transform.localScale.x / (columns + 1); // Distancia entre columnas
@@ -67,6 +90,13 @@ public class SpawnObjects : MonoBehaviour
         {
             Debug.Log("ID aleatorio: " + id);
         }
+
+        WriteIDList();
+    }
+
+    void WriteIDList()
+    {
+        reference.Child("idList").SetValueAsync(randomIDs);
     }
 }
 

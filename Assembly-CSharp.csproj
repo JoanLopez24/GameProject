@@ -45,36 +45,609 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\User.cs" />
-     <Compile Include="Assets\Scripts\ReadTest.cs" />
-     <Compile Include="Assets\Scripts\Test.cs" />
+     <Compile Include="Assets\Scripts\Grabbable\GrabLock.cs" />
+     <Compile Include="Assets\Scripts\Internal\HandPoseScriptable.cs" />
+     <Compile Include="Assets\Scripts\Demo\Text Demo\TextInformation.cs" />
+     <Compile Include="Assets\Scripts\Demo\Demo Scene\PlayerFallCatcher.cs" />
+     <Compile Include="Assets\Scripts\BETA\AutoArrow.cs" />
+     <Compile Include="Assets\Scripts\Attributes\AutoSmallHeaderAttribute.cs" />
+     <Compile Include="Assets\Scripts\Attributes\AutoHeaderAttribute.cs" />
+     <Compile Include="Assets\Scripts\Internal\HandPoseData.cs" />
+     <Compile Include="Assets\XR\Scripts\XRMover.cs" />
+     <Compile Include="Assets\Scripts\Hand\HandPoseArea.cs" />
+     <Compile Include="Assets\Scripts\Movement\Teleporter.cs" />
+     <Compile Include="Assets\Scripts\Hand\Hand.cs" />
+     <Compile Include="Assets\Scripts_\Test.cs" />
+     <Compile Include="Assets\Scripts\BETA\HeldPlaceJoint.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+     <Compile Include="Assets\XR\Scripts\XRHandControllerLink.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+     <Compile Include="Assets\XR\Scripts\XRAutoHandFingerBender.cs" />
+     <Compile Include="Assets\Scripts\Grabbable\GrabbablePoseAdvanced.cs" />
+     <Compile Include="Assets\XR\Scripts\XRControllerEvent.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+     <Compile Include="Assets\Scripts\Internal\KeyboardHand.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+     <Compile Include="Assets\Scripts\Movement\AutoHandPlayer.cs" />
+     <Compile Include="Assets\Scripts\Attributes\AutoLineAttribute.cs" />
+     <Compile Include="Assets\Scripts\Demo\Gadget Demo\MoverLever.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+     <Compile Include="Assets\Scripts\Internal\GrabbableBase.cs" />
+     <Compile Include="Assets\Scripts\BETA\AutoGunEffects.cs" />
+     <Compile Include="Assets\Scripts\Templates\HandEventDebugger.cs" />
+     <Compile Include="Assets\Scripts\Grabbable\GrabbableExtraEvents.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+     <Compile Include="Assets\Scripts\Internal\SerializedSoftJointLimitSpring.cs" />
+     <Compile Include="Assets\Scripts\Hand\HandClippingGuard.cs" />
+     <Compile Include="Assets\XR\Scripts\XRHandPlayerControllerLink.cs" />
+     <Compile Include="Assets\Scripts\Demo\Demo Scene\DemoFlyingToggle.cs" />
+     <Compile Include="Assets\Scripts\Hand\HandControllerLink.cs" />
+     <Compile Include="Assets\Scripts\Gadgets\HandTouchButton.cs" />
+     <Compile Include="Assets\Scripts\Templates\GrabbableEventDebugger.cs" />
+     <Compile Include="Assets\Scripts\Hand\HandTeleportGuard.cs" />
+     <Compile Include="Assets\Scripts\BETA\PlaceJoint.cs" />
+     <Compile Include="Assets\Scripts_\SpawnObjects.cs" />
+     <Compile Include="Assets\Scripts\Internal\HandStabilizer.cs" />
+     <Compile Include="Assets\Scripts\Hand\WristLookEvent.cs" />
+     <Compile Include="Assets\Scripts\Demo\Text Demo\TextFieldInspector.cs" />
+     <Compile Include="Assets\Scripts\Grabbable\GrabbableCollisionHaptics.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+     <Compile Include="Assets\Scripts\Demo\Gadget Demo\ButtonDemoRespawn.cs" />
+     <Compile Include="Assets\Scripts\BETA\GrabbablePoseAnimaion.cs" />
+     <Compile Include="Assets\Scripts\Demo\Demo Scene\ReloadSceneByName.cs" />
+     <Compile Include="Assets\XR\Scripts\XRHandPointGrabLink.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+     <Compile Include="Assets\Scripts_\ReadTest.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+     <Compile Include="Assets\Scripts\Demo\Demo Scene\Pistol.cs" />
+     <Compile Include="Assets\Scripts\Hand\HandDistanceGrabber.cs" />
+     <Compile Include="Assets\Scripts\Demo\Demo Scene\ScaleHighlight.cs" />
+     <Compile Include="Assets\Scripts\Internal\SerializedSoftJointLimit.cs" />
+     <Compile Include="Assets\Scripts\Tools\HandCanvasPointer.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+     <Compile Include="Assets\Scripts\AutoHandExtensions.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+     <Compile Include="Assets\Scripts\Internal\HandGizmos.cs" />
+     <Compile Include="Assets\Scripts\Tools\Stabber.cs" />
+     <Compile Include="Assets\Scripts\Movement\HeadPhysicsFollower.cs" />
+     <Compile Include="Assets\Scripts\Gadgets\JointExtensions.cs" />
+     <Compile Include="Assets\Scripts\Tools\Smash.cs" />
+     <Compile Include="Assets\Scripts\Tools\CollisionTracker.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+     <Compile Include="Assets\Scripts\Demo\Text Demo\SliderTextChanger.cs" />
+     <Compile Include="Assets\Scripts\Demo\Demo Scene\BoxingGlove.cs" />
+     <Compile Include="Assets\Scripts\Templates\PlacePointEventTemplate.cs" />
+     <Compile Include="Assets\Scripts\BETA\AutoGun.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+     <Compile Include="Assets\Scripts\Grabbable\PlacePoint.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+     <Compile Include="Assets\Scripts\Demo\Demo Scene\JointBreakStopForce1.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+     <Compile Include="Assets\Scripts\Movement\PlayerPlatform.cs" />
+     <Compile Include="Assets\Scripts\Tools\Stabbable.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+     <Compile Include="Assets\Scripts\Grabbable\GrabbableOnlyJoint.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+     <Compile Include="Assets\Scripts\Templates\PlacePointEventDebugger.cs" />
+     <Compile Include="Assets\Scripts\Demo\Demo Scene\Spinner.cs" />
+     <Compile Include="Assets\Scripts\Hand\HandPublicEvents.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+     <Compile Include="Assets\Scripts\Hand\HandProjector.cs" />
+     <Compile Include="Assets\Scripts\Demo\Demo Scene\BowlingManager.cs" />
+     <Compile Include="Assets\Scripts\Hand\Finger.cs" />
+     <Compile Include="Assets\XR\Scripts\XRTeleporterLink.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+     <Compile Include="Assets\Scripts\Tools\CollisionIgnores.cs" />
+     <Compile Include="Assets\Scripts\Demo\Demo Scene\Door.cs" />
+     <Compile Include="Assets\Scripts\Demo\Gadget Demo\DialHandScaler.cs" />
+     <Compile Include="Assets\Scripts\BETA\GrabbableHeldJoint.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+     <Compile Include="Assets\Scripts\BETA\AutoGunTarget.cs" />
+     <Compile Include="Assets\Scripts\Tools\AutoInputModule.cs" />
+     <Compile Include="Assets\Scripts\Demo\Text Demo\TMPSizeProtector.cs" />
+     <Compile Include="Assets\Scripts\Demo\Demo Scene\PlatformMover.cs" />
+     <Compile Include="Assets\Scripts\Internal\SerializedJointDrive.cs" />
+     <Compile Include="Assets\Scripts\Gadgets\PhysicsGadgetHingeAngleReader.cs" />
+     <Compile Include="Assets\Scripts\Demo\Demo Scene\ToggleHandProjection.cs" />
+     <Compile Include="Assets\Scripts\Templates\HandTouchEventDebugger.cs" />
+     <Compile Include="Assets\Scripts\Movement\HeadCameraSmoothing.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+     <Compile Include="Assets\Scripts\Demo\Gadget Demo\PhysicsSliderPositionMover.cs" />
+     <Compile Include="Assets\Scripts\BETA\AutoAnimation.cs" />
+     <Compile Include="Assets\Scripts\Grabbable\Grabbable.cs" />
+     <Compile Include="Assets\Scripts\Gadgets\PhysicsGadgetConfigurableLimitReader.cs" />
+     <Compile Include="Assets\Scripts\Demo\Demo Scene\DemoExitCondition.cs" />
+     <Compile Include="Assets\Scripts\Demo\Demo Scene\ExplosionSource.cs" />
+     <Compile Include="Assets\Scripts\Tools\CollisionSound.cs" />
+     <Compile Include="Assets\Scripts\BETA\AutoBow.cs" />
+     <Compile Include="Assets\Scripts\Helpers\OnPlaceIgnoreHands.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+     <Compile Include="Assets\Scripts\Hand\HandAdvancedOptions.cs" />
+     <Compile Include="Assets\Scripts\Grabbable\GrabbablePoseCombiner.cs" />
+     <Compile Include="Assets\Scripts\Grabbable\DispenserPoint.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+     <Compile Include="Assets\Scripts\Movement\Pushable.cs" />
+     <Compile Include="Assets\XR\Scripts\XRAutoHandAxisFingerBender.cs" />
+     <Compile Include="Assets\Scripts\Demo\Demo Scene\HandSwapper.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+     <Compile Include="Assets\Scripts\Grabbable\GrabbableThrowEvent.cs" />
+     <Compile Include="Assets\Scripts\Tools\PhysicsFollower.cs" />
+     <Compile Include="Assets\Scripts\Demo\Demo Scene\TomatoSpawner.cs" />
+     <Compile Include="Assets\Scripts\Tools\Stickable.cs" />
+     <Compile Include="Assets\Scripts\Demo\Demo Scene\OpenLink.cs" />
+     <Compile Include="Assets\Scripts\Hand\HandTriggerAreaEvents.cs" />
+     <Compile Include="Assets\Scripts\Grabbable\GrabbablePose.cs" />
+     <Compile Include="Assets\Scripts\Internal\HandVelocityTracker.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+     <Compile Include="Assets\Scripts\Demo\Text Demo\TextPlacePointEvent.cs" />
+     <Compile Include="Assets\Scripts\Gadgets\PhysicsGadgetLever.cs" />
+     <Compile Include="Assets\Scripts\Demo\Text Demo\LeverTextChanger.cs" />
+     <Compile Include="Assets\Scripts\Demo\Demo Scene\UnlockChest.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\Demo\Text Demo\TextGrabEvent.cs" />
+     <Compile Include="Assets\Scripts\Attributes\AutoToggleHeaderAttribute.cs" />
+     <Compile Include="Assets\Scripts\Movement\InterpolationController.cs" />
+     <Compile Include="Assets\Scripts\Gadgets\PhysicsGadgetJoystick.cs" />
+     <Compile Include="Assets\Scripts\Grabbable\GrabbableExtensions.cs" />
+     <Compile Include="Assets\Scripts\Hand\HandCollisionHaptics.cs" />
+     <Compile Include="Assets\Scripts\Tools\Sticky.cs" />
+     <Compile Include="Assets\XR\Scripts\XRHandOffset.cs" />
+     <Compile Include="Assets\Scripts\Movement\IgnoreHandPlayerCollision.cs" />
+     <Compile Include="Assets\Scripts\Gadgets\PhysicsGadgetSlider.cs" />
+     <Compile Include="Assets\Scripts\Movement\InterpolatedTransformUpdater.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+     <Compile Include="Assets\Scripts\Internal\HandBase.cs" />
+     <Compile Include="Assets\Scripts\Tools\AutoHandSettings.cs" />
+     <Compile Include="Assets\Scripts\Internal\DynamicTimestepSetter.cs" />
+     <Compile Include="Assets\Scripts\Hand\HandTouchEvent.cs" />
+     <Compile Include="Assets\XR\Scripts\XRHeadTracking.cs" />
+     <Compile Include="Assets\Scripts\Movement\InterpolatedTransform.cs" />
+     <Compile Include="Assets\Scripts\Internal\EditorHand.cs" />
+     <Compile Include="Assets\Scripts\Grabbable\GrabbableChild.cs" />
+     <Compile Include="Assets\Scripts\Grabbable\GrabbableSubstitute.cs" />
+     <Compile Include="Assets\Scripts\Grabbable\DistanceGrabbable.cs" />
+     <Compile Include="Assets\Scripts\Movement\AutoHandPlayerForceArea.cs" />
+     <Compile Include="Assets\Scripts\Tools\MagneticSource.cs" />
+     <Compile Include="Assets\Scripts\Tools\Smasher.cs" />
+     <Compile Include="Assets\Scripts\Demo\Gadget Demo\WheelRotator.cs" />
+     <Compile Include="Assets\Scripts\Gadgets\PhysicsGadgetButton.cs" />
+     <Compile Include="Assets\Scripts\Demo\Text Demo\TextChanger.cs" />
+     <Compile Include="Assets\Scripts\Hand\IgnoreHandLayer.cs" />
+     <Compile Include="Assets\Scripts\Tools\MagneticBody.cs" />
+     <Compile Include="Assets\Scripts_\User.cs" />
+     <Compile Include="Assets\Scripts\Demo\Demo Scene\ToggleAutoMoveFlying.cs" />
+     <Compile Include="Assets\Scripts\Movement\Climbable.cs" />
+     <Compile Include="Assets\Scripts\Demo\Demo Scene\CubeBreak.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+     <Compile Include="Assets\Scripts\Templates\HandEventTemplate.cs" />
+     <Compile Include="Assets\Scripts\Demo\Demo Scene\Grenade.cs" />
+     <Compile Include="Assets\Scripts\Demo\Gadget Demo\JoystickObjectMover.cs" />
+     <Compile Include="Assets\Scripts\Grabbable\WeightlessFollower.cs" />
+     <Compile Include="Assets\Scripts\BETA\AutoAmmo.cs" />
      <Folder Include="Assets" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\- Animations\Scale\Scale Appear" />
      <Folder Include="Assets\FirebaseJSON" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Scifi_M" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Resources_M" />
+     <Folder Include="Assets\Scripts\Templates" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Dishes_M" />
      <Folder Include="Assets\Firebase\m2repository\com\google" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Buildings_T" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Sprites" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Buildings_M\parts" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Tiles_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Weapons_T" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Military_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Tiles_T\Rails_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Vehicles_M\Boats_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Apocalypse_T" />
      <None Include="Assets\StreamingAssets\google-services-desktop.json" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Space_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Props_T\Fence_T" />
+     <Folder Include="Assets\TextMesh Pro\Sprites" />
+     <Folder Include="Assets\Mesh\Materials" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Tiles_T\Tunnels_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Scifi_M\Scifi City_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\People_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Buildings_M" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\- Materials\Colors\Emission" />
+     <Folder Include="Assets\Scripts\Internal" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Terrains_T\Islands_T" />
+     <Folder Include="Assets\Scripts\Demo\Text Demo" />
      <Folder Include="Assets\Firebase\m2repository" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Medieval_T" />
+     <Folder Include="Assets\Mesh\TrainingDummy\textures" />
      <Folder Include="Assets\Firebase\m2repository\com\google\firebase\firebase-auth-unity\11.6.0" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Tiles_T\Rails_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Vehicles_M\Cars_M" />
+     <Folder Include="Assets\Mesh\TrainingDummy" />
+     <Folder Include="Assets\Scripts\Demo\Demo Scene" />
+     <Folder Include="Assets\Mesh\grenade\textures" />
+     <Folder Include="Assets\Mesh\mk-2-grenade\source" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Amusement-Park_M" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Terrains_T\Worlds_T" />
+     <Folder Include="Assets\XR\Scripts" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Nature_T" />
+     <Folder Include="Assets\TextMesh Pro" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Music_M" />
+     <None Include="Assets\Shaders\DoubleSided.shader" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Pirates_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Drinks_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Tiles_M\Tunnel_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Tiles_M\Race_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Space_T" />
+     <Folder Include="Assets\Scripts\Demo\Gadget Demo" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Vehicles_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Terrains_T\Planes_T" />
+     <Folder Include="Assets\Mesh\Chest\Materials" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Vehicles_M\Air_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\People_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Racing_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T" />
      <Folder Include="Assets\Firebase\m2repository\com" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Tiles_NB_M" />
+     <Folder Include="Assets\Materials\Colors" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Nature_M\Trees_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\India_T" />
      <Folder Include="Assets\StreamingAssets" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Tiles-NB_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Western_T" />
+     <Folder Include="Assets\XR\Demo" />
+     <Folder Include="Assets\Materials" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Nature_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Props_M\City_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Drinks_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Nature_T\Trees_T\Trees_Dead_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Apocalypse_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Military_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Tiles_M" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
      <Folder Include="Assets\Firebase\m2repository\com\google\firebase" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Props_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Tiles_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Military_M" />
+     <Folder Include="Assets\Scripts\BETA" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\India_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Western_M" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Egypt_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\- Textures" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Tiles_T\Tunnels_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Farm_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Vehicles_M\Trains_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Amusement Park_T" />
      <Folder Include="Assets\Firebase\Plugins\iOS" />
-     <Folder Include="Assets\Scripts" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Terrains_M\Scenes_M" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Apocalypse_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Tiles_T\Race_T" />
+     <Folder Include="Assets\TextMesh Pro\Resources" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Fantasy_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Racing_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Nature_M\Trees_M\Trees_Dead_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Fantasy_T" />
+     <Folder Include="Assets\XR\Prefabs" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Vehicles_T\air" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Tiles-NB_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Dishes_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Roman_M" />
+     <Folder Include="Assets\Resources\Materials" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Farm_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Tiles_M\Race_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Terrains_M\Islands_M" />
+     <Folder Include="Assets\Mesh\grenade\Materials" />
+     <Folder Include="Assets\Textures" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Nature_M\Mushrooms_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Terrains_M\Islands_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Nature_T\Grass_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Farm_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Survival_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Japan_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Props_T" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <Folder Include="Assets\Scripts\Attributes" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\People_T\Rigs_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Terrains_T" />
+     <Folder Include="Assets\Mesh\TrainingDummy\source" />
+     <Folder Include="Assets\Scripts_" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Beach_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Nature_M\Stones_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Nature_T\Clouds_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Medieval_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\- Animations\Scale" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Pirates_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Zulu_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Drinks_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Farm_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Nature_M\Trees_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Props_M\Materials" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Scifi_T\Scifi Vehicles_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Electronics_M" />
+     <Folder Include="Assets\Resources" />
      <Folder Include="Assets\Firebase\Plugins\x86_64" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Animals_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Resources_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Vehicles_T\boats" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\WW2_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\- Animations" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Tiles_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Nature_T" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Amusement Park_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Tiles_T\Roads_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Nature_M\Others_M" />
      <Folder Include="Assets\ExternalDependencyManager" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\People_M" />
      <Folder Include="Assets\Firebase\m2repository\com\google\firebase\firebase-auth-unity" />
+     <Folder Include="Assets\Shaders" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts" />
+     <Folder Include="Assets\Mesh\Chest" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Props_M\House_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Zulu_M" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources" />
      <Folder Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Electronics_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Animals_M" />
+     <Folder Include="Assets\Mesh" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Construction_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Props_T\City_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Nature_T\Mushrooms_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Props_T\Pier_T" />
+     <Folder Include="Assets\Mesh\Chest\source" />
+     <Folder Include="Assets\Mesh\Gloves\textures" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Nature_M\Sea_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Beach_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Medieval_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Terrains_M\Planes_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\People_M\Rigs_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Survival_T" />
+     <Folder Include="Assets\Mesh\Target" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Food_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Roman_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Tiles_M\Runway_M" />
+     <Folder Include="Assets\Prefabs\Kitchen" />
      <Folder Include="Assets\Firebase" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Tiles_M\Bridges_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Tiles_T\Runway_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Nature_M\Clouds_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\India_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Terrains_M\Worlds_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Vehicles_T\trains" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Nature_T\Trees_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Pirates_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Terrains_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\- Animations\Position" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Terrains_T\Hexagons_T" />
+     <Folder Include="Assets\Prefabs\Simple" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Fantasy_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Nature_T\Trees_T\Trees_Dead_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Amusement Park_T" />
      <Folder Include="Assets\Firebase\m2repository\com\google\firebase\firebase-database-unity" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Vehicles_M" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Materials" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Japan_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Terrains_M" />
+     <Folder Include="Assets\Scripts\Hand" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Nature_M\Mushrooms_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Nature_M\Leaves_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\WW2_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Dishes_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Sport_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Terrains_T\Islands_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Tiles-NB_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Resources_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\- Animations\People Animation" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Terrains_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Nature_M\Stones_M" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Egypt_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Buildings_M\Parts_M" />
+     <Folder Include="Assets\Mesh\Basketball\textures" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Tiles_T\Tile-buildings_T" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <Folder Include="Assets\Prefabs" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Western_T" />
      <None Include="Assets\FirebaseJSON\google-services.json" />
+     <Folder Include="Assets\Materials\Highlight" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Vehicles_T" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Scifi_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\India_M" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-auth-unity\maven-metadata.xml" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Electronics_T" />
+     <Folder Include="Assets\Scripts\Grabbable" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Western_M" />
      <Folder Include="Assets\Scenes" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Sport_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Scifi_M\Scifi Vehicles_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\WW2_M" />
+     <Folder Include="Assets\Prefabs\Gadgets" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Buildings_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Nature_T\Stones_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Terrains_M\Worlds_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Nature_T\Trees_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Scifi_M" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Space_M" />
+     <Folder Include="Assets\TextMesh Pro\Shaders" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Drinks_T" />
+     <Folder Include="Assets\Scripts\Tools" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Nature_M\Grass_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Roman_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Vehicles_M" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Sprite Assets" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Nature_M\Sea_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Nature_M\Leaves_M" />
+     <Folder Include="Assets\Mesh\grenade\source" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Style Sheets" />
+     <Folder Include="Assets\Prefabs\Demo" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Weapons_M" />
+     <Folder Include="Assets\polyperfect" />
+     <Folder Include="Assets\Mesh\mk-2-grenade" />
+     <Folder Include="Assets\TextMesh Pro\Fonts" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Furniture_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Survival_M" />
+     <Folder Include="Assets\XR" />
+     <Folder Include="Assets\Scripts" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Terrains_M\Planes_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Animals_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Tiles_T\Race_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Electronics_M" />
+     <Folder Include="Assets\Mesh\Gloves\source\Boxing Glove" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Furniture_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Terrains_T\Worlds_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Pirates_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Props_M" />
      <Folder Include="Assets\Editor Default Resources\Firebase" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Nature_M\Flowers_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Tiles_T\Tile-buildings_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Buildings_T\Parts_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Props_T\House_T" />
+     <Folder Include="Assets\Mesh\Target\source" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Furniture_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Military_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Nature_M\Clouds_M" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Prefabs" />
+     <Folder Include="Assets\Prefabs\Poses" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Space_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Racing_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Tiles_T\Bridges_T" />
+     <None Include="Assets\Shaders\Outline.shader" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Nature_M\Ice_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Nature_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Nature_M\Ice_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Tiles_M\Tunnels_M" />
+     <Folder Include="Assets\Mesh\Chest\textures" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Tiles_M\Runway_M" />
+     <Folder Include="Assets\Prefabs\Attachments" />
      <Folder Include="Assets\Editor Default Resources" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Tiles_T\Roads_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Terrains_T\Hexagons_T" />
+     <Folder Include="Assets\Mesh\Gloves" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Scenes" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Survival_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Egypt_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Scifi_T\Scifi Furniture_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Nature_M\Grass_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\- Materials\Colors" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Nature_T\Ice_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Racing_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Weapons_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Apocalypse_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Props_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Tiles_T\Runway_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\People_M\Rigs_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\- Materials\Colors\Transparent" />
+     <Folder Include="Assets\Mesh\TrainingDummy\Materials" />
      <Folder Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\11.6.0" />
+     <Folder Include="Assets\Scripts\Movement" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Tiles_M\Bridges_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Nature_T\Sea_T" />
+     <Folder Include="Assets\Sounds" />
      <Folder Include="Assets\Firebase\Plugins" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Music_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Furniture_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Tools_M" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Props_M\Pier_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Nature_T\Flowers_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Beach_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Food_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Tiles_T\Bridges_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Zulu_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Tools_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\- Animations\Rotation" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Scifi_M\Scifi Furniture_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Props_M\Fence_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Nature_M\Trees_M\Trees_Dead_M" />
      <Folder Include="Assets\Firebase\m2repository\com\google\firebase\firebase-database-unity\11.6.0" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\People_T\Rigs_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Tiles_M\Rails_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Fantasy_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Japan_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Tools_T" />
+     <Folder Include="Assets\Scripts\Gadgets" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Tiles_M\Tile-buildings_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Food_M" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Vehicles_T\cars" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Beach_M" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-database-unity\maven-metadata.xml" />
+     <Folder Include="Assets\Scripts\Helpers" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Egypt_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Buildings_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\WW2_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Music_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\- Materials" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Animals_T" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Textures" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Nature_M\Flowers_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Tools_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T" />
+     <Folder Include="Assets\TextMesh Pro\Documentation" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Buildings_T\Parts_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Dishes_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Music_T" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras" />
+     <Folder Include="Assets\Mesh\Basketball" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Roman_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\- Terrains" />
+     <Folder Include="Assets\Scripts\Demo" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Construction_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Construction_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Sport_M" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Weapons_M" />
+     <Folder Include="Assets\Materials\Physics" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Scifi_T\Scifi City_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Japan_T" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Fonts &amp; Materials" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Medieval_M" />
+     <Folder Include="Assets\Scripts\Attributes\NaughtyAttributes" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Tiles_M\Tile-buildings_M" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Color Gradient Presets" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Sport_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Construction_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\People_T" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Terrains_T\Planes_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Tiles_M\Rails_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Tiles_M\Roads_M" />
+     <Folder Include="Assets\Mesh\grenade" />
+     <Folder Include="Assets\Mesh\Gloves\source" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Tiles_M\Roads_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Zulu_T" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Food_M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Nature_T\Leaves_T" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Scifi_T" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M" />
+     <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Resources_M" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
@@ -325,28 +898,28 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="ReportGeneratorMerged">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
      </Reference>
      <Reference Include="Firebase.App">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Assets\Firebase\Plugins\Firebase.App.dll</HintPath>
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Assets\Firebase\Plugins\Firebase.App.dll</HintPath>
      </Reference>
      <Reference Include="Firebase.TaskExtension">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Assets\Firebase\Plugins\Firebase.TaskExtension.dll</HintPath>
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Assets\Firebase\Plugins\Firebase.TaskExtension.dll</HintPath>
      </Reference>
      <Reference Include="Firebase.Auth">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Assets\Firebase\Plugins\Firebase.Auth.dll</HintPath>
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Assets\Firebase\Plugins\Firebase.Auth.dll</HintPath>
      </Reference>
      <Reference Include="Firebase.Database">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Assets\Firebase\Plugins\Firebase.Database.dll</HintPath>
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Assets\Firebase\Plugins\Firebase.Database.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Library\PackageCache\com.unity.visualscripting@1.9.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\PackageCache\com.unity.visualscripting@1.9.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Firebase.Platform">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Assets\Firebase\Plugins\Firebase.Platform.dll</HintPath>
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Assets\Firebase\Plugins\Firebase.Platform.dll</HintPath>
      </Reference>
      <Reference Include="Google.MiniJson">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Assets\Firebase\Plugins\Google.MiniJson.dll</HintPath>
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Assets\Firebase\Plugins\Google.MiniJson.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Xcode">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -730,76 +1303,88 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEngine.UI">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
      </Reference>
      <Reference Include="Unity.EditorCoroutines.Editor">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UI">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
      </Reference>
      <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline.Editor">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro.Editor">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VSCode.Editor">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="NaughtyAttributes.Editor.csproj">
+      <Project>{4c891fe6-756e-f0cc-5eca-3800167aa5a8}</Project>
+      <Name>NaughtyAttributes.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NaughtyAttributes.Core.csproj">
+      <Project>{20435d3f-b1cc-9ae4-2a9a-78a9e51f2a1f}</Project>
+      <Name>NaughtyAttributes.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Polyperfect.Common.csproj">
+      <Project>{1efab55b-07e8-3cca-fec8-d0c0f05cd56e}</Project>
+      <Name>Polyperfect.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

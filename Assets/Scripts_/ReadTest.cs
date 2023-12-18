@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using Firebase;
 using Firebase.Database;
@@ -10,15 +11,14 @@ using Object = UnityEngine.Object;
 public class ReadTest : MonoBehaviour
 {
     private DatabaseReference reference;
-    List<int> values = new List<int>();
+    List<string> values = new List<string>();
+    string info = "";
     // Start is called before the first frame update
     void Start()
     {
         // Get the root reference location of the database.
         reference = FirebaseDatabase.DefaultInstance.RootReference;
-        FirebaseDatabase.DefaultInstance
-            .GetReference("idList")
-            .OrderByKey()
+        reference.Child("idList")
             .GetValueAsync().ContinueWith(task => {
                 if (task.IsFaulted) {
                     // Handle the error...
@@ -27,28 +27,31 @@ public class ReadTest : MonoBehaviour
                     DataSnapshot snapshot = task.Result;
                     // Do something with snapshot..
                     
-                    string info = "";
                     // Mientras la lista no tenga la misma cantidad de elementos que el snapshot
                     while (values.Count < snapshot.ChildrenCount) {
                         // Itera a través de los hijos del snapshot
                         foreach (DataSnapshot childSnapshot in snapshot.Children) {
+                           //Debug.Log(childSnapshot.Value.ToString());
                             // Si la lista no contiene el valor y la clave es igual al tamaño de la lista
-                            if (!values.Contains(int.Parse(childSnapshot.Value.ToString())) && int.Parse(childSnapshot.Key) == values.Count) {
+                            if (int.Parse(childSnapshot.Key) == values.Count) {
                                 // Añade el valor a la lista
-                                values.Add(int.Parse(childSnapshot.Value.ToString()));
+                                values.Add(childSnapshot.Value.ToString());
+                                info = info + childSnapshot.Value.ToString() + ", ";
+                                //Debug.Log(childSnapshot.Value.ToString());
                                 break;
                             }
                         }
                     }
 
-                    foreach (int value in values)
+                    Debug.Log(values.Count);
+                    foreach (var value in values)
                     {
                         Debug.Log(value);
                     }
-                  
+                    
+                    Debug.Log(info);
                 }
             });
-        
         
     }
 

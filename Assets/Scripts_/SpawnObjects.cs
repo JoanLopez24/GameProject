@@ -83,7 +83,15 @@ public class SpawnObjects : MonoBehaviour
             }
             while (randomIDs.Contains("Button" + randomID));
 
-            randomIDs.Add(gadgets[randomID].name);
+            if (!randomIDs.Contains(gadgets[randomID].name))
+            {
+                randomIDs.Add(gadgets[randomID].name);
+            }
+            else
+            {
+                i -= 1;
+            }
+            
         }
 
         // Imprime los IDs aleatorios

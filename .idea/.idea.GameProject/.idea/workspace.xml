@@ -6,9 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="d5194066-d0dd-4c75-a680-97461b368cca" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gadgets/Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gadgets/Button.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts_/ReadTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts_/ReadTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts_/SpawnObjects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts_/SpawnObjects.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +21,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts_/TestButtonPress.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -96,7 +103,8 @@
       <option name="presentableId" value="Default" />
       <updated>1702542649701</updated>
       <workItem from="1702542650838" duration="1875000" />
-      <workItem from="1702545204738" duration="6951000" />
+      <workItem from="1702545204738" duration="7689000" />
+      <workItem from="1702889317082" duration="1198000" />
     </task>
     <servers />
   </component>

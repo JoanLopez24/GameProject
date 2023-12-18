@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using Firebase.Database;
 using UnityEngine;
 
@@ -8,8 +9,8 @@ public class SpawnObjects : MonoBehaviour
     public GameObject cube; // El cubo sobre el cual quieres instanciar los prefabs
     public int rows = 5; // Número de filas
     public int columns = 4; // Número de columnas
-    private GameObject[] gameObjects; // Array para guardar los GameObjects instanciados
-    private List<int> randomIDs; // Lista para guardar 20 IDs aleatorios
+    private GameObject[] gadgets; // Array para guardar los GameObjects instanciados
+    private List<string> randomIDs; // Lista para guardar 20 IDs aleatorios
     // Start is called before the first frame update
     private Firebase.FirebaseApp app;
     private DatabaseReference reference;
@@ -36,8 +37,8 @@ public class SpawnObjects : MonoBehaviour
         // Get the root reference location of the database.
         reference = FirebaseDatabase.DefaultInstance.RootReference;
         
-        gameObjects = new GameObject[rows * columns]; // Inicializa el array
-        randomIDs = new List<int>(); // Inicializa la lista
+        gadgets = new GameObject[rows * columns]; // Inicializa el array
+        randomIDs = new List<string>(); // Inicializa la lista
         float xOffset = cube.transform.localScale.x / (columns + 1); // Distancia entre columnas
         float zOffset = cube.transform.localScale.z / (rows + 1); // Distancia entre filas
 
@@ -58,7 +59,7 @@ public class SpawnObjects : MonoBehaviour
                 instance.name = "Button" + ((x - 1) * rows + z).ToString();
 
                 // Guarda la instancia en el array
-                gameObjects[(x - 1) * rows + (z - 1)] = instance;
+                gadgets[(x - 1) * rows + (z - 1)] = instance;
 
                 // Encuentra el objeto Button en el prefab instanciado
                 GameObject button = instance.transform.Find("Grab/Button").gameObject;
@@ -78,15 +79,15 @@ public class SpawnObjects : MonoBehaviour
 
             do
             {
-                randomID = Random.Range(0, gameObjects.Length);
+                randomID = Random.Range(0, gadgets.Length);
             }
-            while (randomIDs.Contains(randomID));
+            while (randomIDs.Contains("Button" + randomID));
 
-            randomIDs.Add(randomID);
+            randomIDs.Add(gadgets[randomID].name);
         }
 
         // Imprime los IDs aleatorios
-        foreach (int id in randomIDs)
+        foreach (string id in randomIDs)
         {
             Debug.Log("ID aleatorio: " + id);
         }

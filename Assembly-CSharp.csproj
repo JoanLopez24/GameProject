@@ -194,6 +194,7 @@
      <Compile Include="Assets\Scripts\Attributes\AutoToggleHeaderAttribute.cs" />
      <Compile Include="Assets\Scripts\Movement\InterpolationController.cs" />
      <Compile Include="Assets\Scripts\Gadgets\PhysicsGadgetJoystick.cs" />
+     <Compile Include="Assets\Scripts_\TestButtonPress.cs" />
      <Compile Include="Assets\Scripts\Grabbable\GrabbableExtensions.cs" />
      <Compile Include="Assets\Scripts\Hand\HandCollisionHaptics.cs" />
      <Compile Include="Assets\Scripts\Tools\Sticky.cs" />

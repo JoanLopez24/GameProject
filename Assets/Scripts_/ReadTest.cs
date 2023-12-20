@@ -11,7 +11,7 @@ using Object = UnityEngine.Object;
 public class ReadTest : MonoBehaviour
 {
     private DatabaseReference reference;
-    List<string> values = new List<string>();
+    private List<PrefabState> prefabs = new List<PrefabState>();
     private GameObject[] gadgets;
     string info = "";
     // Start is called before the first frame update
@@ -19,40 +19,40 @@ public class ReadTest : MonoBehaviour
     {
         // Get the root reference location of the database.
         reference = FirebaseDatabase.DefaultInstance.RootReference;
-        reference.Child("idList")
+        reference.Child("prefabs")
             .GetValueAsync().ContinueWith(task => {
                 if (task.IsFaulted) {
                     // Handle the error...
                 }
                 else if (task.IsCompleted) {
                     DataSnapshot snapshot = task.Result;
-                    // Do something with snapshot..
                     
                     // Mientras la lista no tenga la misma cantidad de elementos que el snapshot
-                    while (values.Count < snapshot.ChildrenCount) {
+                    while (prefabs.Count < snapshot.ChildrenCount) {
+                       
                         // Itera a través de los hijos del snapshot
                         foreach (DataSnapshot childSnapshot in snapshot.Children) {
-                           //Debug.Log(childSnapshot.Value.ToString());
+                     
                             // Si la lista no contiene el valor y la clave es igual al tamaño de la lista
-                            if (int.Parse(childSnapshot.Key) == values.Count) {
+                            if (int.Parse(childSnapshot.Key) == prefabs.Count) {
+                               
                                 // Añade el valor a la lista
-                                values.Add(childSnapshot.Value.ToString());
-                                info = info + childSnapshot.Value.ToString() + ", ";
-                                //Debug.Log(childSnapshot.Value.ToString());
+                                PrefabState ps = new PrefabState(childSnapshot.Child("prefabID").Value.ToString(),
+                                    childSnapshot.Child("color").Value.ToString(),
+                                    childSnapshot.Child("prefabType").Value.ToString());
+                                prefabs.Add(ps);
+                     
                                 break;
                             }
                         }
                     }
+                    
+                    Debug.Log(prefabs.Count);
 
-                    Debug.Log(values.Count);
-                    gadgets = new GameObject[values.Count];
-                    foreach (var value in values)
+                    foreach (PrefabState ps in prefabs)
                     {
-                        Debug.Log(value);
-
+                        Debug.Log(ps.prefabID);
                     }
-
-                    Debug.Log(info);
                 }
             });
         

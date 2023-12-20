@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4299928556430818838}
   m_Layer: 0
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: SimpleBtn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 178511659616210194}
   m_Layer: 0
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: SimpleBtn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 8285446169120826528}
   m_Layer: 0
   m_Name: Grab
-  m_TagString: Untagged
+  m_TagString: SimpleBtn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

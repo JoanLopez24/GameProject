@@ -11,13 +11,16 @@ public class SpawnObjects : MonoBehaviour
     public int columns = 4; // Número de columnas
     private GameObject[] gadgets; // Array para guardar los GameObjects instanciados
     private List<string> randomIDs; // Lista para guardar 20 IDs aleatorios
+
+    public List<PrefabState> prefabs;
     // Start is called before the first frame update
     private Firebase.FirebaseApp app;
     private DatabaseReference reference;
 
     void Start()
     {
-        
+
+        prefabs = new List<PrefabState>();
         Firebase.FirebaseApp.CheckAndFixDependenciesAsync().ContinueWith(task => {
             var dependencyStatus = task.Result;
             if (dependencyStatus == Firebase.DependencyStatus.Available) {
@@ -69,6 +72,11 @@ public class SpawnObjects : MonoBehaviour
 
                 // Asigna el color aleatorio al MeshRenderer del botón
                 button.GetComponent<MeshRenderer>().material.color = randomColor;
+
+                PrefabState ps = new PrefabState(instance.name, randomColor.ToString(), button.tag);
+                prefabs.Add(ps);
+
+
             }
         }
         
@@ -93,19 +101,38 @@ public class SpawnObjects : MonoBehaviour
             }
             
         }
-
-        // Imprime los IDs aleatorios
-        foreach (string id in randomIDs)
-        {
-            Debug.Log("ID aleatorio: " + id);
-        }
-
-        WriteIDList();
+        
+        SavePrefabStates(prefabs, randomIDs);
+        
     }
 
-    void WriteIDList()
+    void SavePrefabStates(List<PrefabState> prefabs, List<string> ids)
     {
-        reference.Child("idList").SetValueAsync(randomIDs);
+
+       Debug.Log("IDS COUNT: " + ids.Count);
+
+       List<PrefabState> prefabsFinal = new List<PrefabState>();
+ 
+       for (int r = 0; r < prefabs.Count; r++)
+       {
+           for (int j = 0; j < ids.Count; j++)
+           {
+               if (prefabs[r].prefabID.Equals(ids[j]))
+               {
+                   prefabsFinal.Add(prefabs[r]);
+               }
+           }
+       }
+
+       int y = 0;
+       
+       foreach (PrefabState ps in prefabsFinal)
+       {
+            string json = JsonUtility.ToJson(ps);
+            reference.Child("prefabs").Child(y.ToString()).SetRawJsonValueAsync(json);
+            y += 1;
+       }
+
     }
 }
 

@@ -12,6 +12,7 @@ public class ReadTest : MonoBehaviour
 {
     private DatabaseReference reference;
     List<string> values = new List<string>();
+    private GameObject[] gadgets;
     string info = "";
     // Start is called before the first frame update
     void Start()
@@ -44,11 +45,13 @@ public class ReadTest : MonoBehaviour
                     }
 
                     Debug.Log(values.Count);
+                    gadgets = new GameObject[values.Count];
                     foreach (var value in values)
                     {
                         Debug.Log(value);
+
                     }
-                    
+
                     Debug.Log(info);
                 }
             });

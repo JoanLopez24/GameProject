@@ -77,6 +77,7 @@
      <Compile Include="Assets\Scripts\Internal\GrabbableBase.cs" />
      <Compile Include="Assets\Scripts\BETA\AutoGunEffects.cs" />
      <Compile Include="Assets\Scripts\Templates\HandEventDebugger.cs" />
+     <Compile Include="Assets\Scripts_\PrefabState.cs" />
      <Compile Include="Assets\Scripts\Grabbable\GrabbableExtraEvents.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
      <Compile Include="Assets\Scripts\Internal\SerializedSoftJointLimitSpring.cs" />

@@ -73,7 +73,13 @@ public class SpawnObjects : MonoBehaviour
                 // Asigna el color aleatorio al MeshRenderer del botón
                 button.GetComponent<MeshRenderer>().material.color = randomColor;
 
-                PrefabState ps = new PrefabState(instance.name, randomColor.ToString(), button.tag);
+                string rcolor = randomColor.ToString();
+                rcolor = rcolor.Replace("RGBA", "");
+                rcolor = rcolor.Replace("(", "");
+                rcolor = rcolor.Replace(")", "");
+                Debug.Log(rcolor);
+
+                PrefabState ps = new PrefabState(instance.name, rcolor, button.tag);
                 prefabs.Add(ps);
 
 

@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d5194066-d0dd-4c75-a680-97461b368cca" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/App.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/App.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts_/ReadTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts_/ReadTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts_/SpawnObjects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts_/SpawnObjects.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +20,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10871f9e312b442cb78b9b97db88fdcb172a00/34/208157bf/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/787acc3c9a4c471ba7d971300105af2446ac00/93/d66a252c/Task.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/787acc3c9a4c471ba7d971300105af2446ac00/b3/2aae6dcc/ThreadPoolWorkQueue.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts_/PrefabState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts_/TestButtonPress.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -105,7 +109,9 @@
       <workItem from="1702892005149" duration="1462000" />
       <workItem from="1702895517492" duration="6715000" />
       <workItem from="1703060229461" duration="2822000" />
-      <workItem from="1703063267727" duration="421000" />
+      <workItem from="1703063267727" duration="2756000" />
+      <workItem from="1705563515970" duration="5439000" />
+      <workItem from="1705569577213" duration="577000" />
     </task>
     <servers />
   </component>

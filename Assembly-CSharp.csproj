@@ -221,6 +221,7 @@
      <Compile Include="Assets\Scripts\Gadgets\PhysicsGadgetButton.cs" />
      <Compile Include="Assets\Scripts\Demo\Text Demo\TextChanger.cs" />
      <Compile Include="Assets\Scripts\Hand\IgnoreHandLayer.cs" />
+     <Compile Include="Assets\Scripts_\PrefabStateButton.cs" />
      <Compile Include="Assets\Scripts\Tools\MagneticBody.cs" />
      <Compile Include="Assets\Scripts_\User.cs" />
      <Compile Include="Assets\Scripts\Demo\Demo Scene\ToggleAutoMoveFlying.cs" />

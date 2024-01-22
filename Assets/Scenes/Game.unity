@@ -123,6 +123,37 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &415182045
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 415182046}
+  m_Layer: 0
+  m_Name: Gadgets
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &415182046
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 415182045}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1559498, y: 0.04493942, z: 0.30233258}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &426723272
 GameObject:
   m_ObjectHideFlags: 0
@@ -172,9 +203,10 @@ MonoBehaviour:
   - {fileID: 4724704979272508679, guid: 4b8ec59767560ea43bda92470f502dbd, type: 3}
   - {fileID: 1676971948296800437, guid: c653655906e3fcc4196fb773680016a9, type: 3}
   - {fileID: 634828182706447386, guid: 0e91b3961ae08b44db4e4583412b7223, type: 3}
+  gadgetsParent: {fileID: 415182045}
   cube: {fileID: 2013684194}
-  rows: 7
-  columns: 7
+  rows: 5
+  columns: 4
   prefabs: []
 --- !u!1 &705507993
 GameObject:
@@ -582,3 +614,4 @@ SceneRoots:
   - {fileID: 426723274}
   - {fileID: 1678979118}
   - {fileID: 2013684198}
+  - {fileID: 415182046}

@@ -41,10 +41,10 @@ public class ReadTest : MonoBehaviour
                             if (int.Parse(childSnapshot.Key) == prefabs.Count) {
                                
                                 // Añade el valor a la lista
-                                PrefabState ps = new PrefabState(childSnapshot.Child("prefabID").Value.ToString(),
+                          /*      PrefabState ps = new PrefabState(childSnapshot.Child("prefabID").Value.ToString(),
                                     childSnapshot.Child("color").Value.ToString(),
                                     childSnapshot.Child("prefabType").Value.ToString());
-                                prefabs.Add(ps);
+                                prefabs.Add(ps);*/
                      
                                 break;
                             }
@@ -88,10 +88,10 @@ public class ReadTest : MonoBehaviour
 
         foreach (PrefabState ps in prefabList)
         {
-            Debug.Log(ps.color);
+           // Debug.Log(ps.color);
         }
         
-        string rgba = prefabList[0].color;
+        /*string rgba = prefabList[0].color;
         
         string[] rgbaComponents = rgba.Split(',');
         
@@ -104,7 +104,7 @@ public class ReadTest : MonoBehaviour
         Color color = new Color(r / 1000f, g / 1000f, b / 1000f, a / 1000f);
 
         // Asigna el color aleatorio al MeshRenderer del botón
-        btn.GetComponent<MeshRenderer>().material.color = color;
+        btn.GetComponent<MeshRenderer>().material.color = color;*/
        
     }
 }

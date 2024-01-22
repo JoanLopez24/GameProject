@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class SpawnObjects : MonoBehaviour
 {
-    public GameObject prefab; // El prefab que quieres instanciar
+    public GameObject[] prefab; // El prefab que quieres instanciar
     public GameObject cube; // El cubo sobre el cual quieres instanciar los prefabs
     public int rows = 5; // Número de filas
     public int columns = 4; // Número de columnas
@@ -16,6 +16,7 @@ public class SpawnObjects : MonoBehaviour
     // Start is called before the first frame update
     private Firebase.FirebaseApp app;
     private DatabaseReference reference;
+    private GameObject instance;
 
     void Start()
     {
@@ -55,16 +56,23 @@ public class SpawnObjects : MonoBehaviour
                 // Añade la posición del cubo para mover la posición relativa al mundo
                 position += cube.transform.position;
 
-                // Instancia el prefab en la posición calculada
-                GameObject instance = Instantiate(prefab, position, Quaternion.identity);
-                
-                // Asigna un ID al GameObject instanciado
-                instance.name = "Button" + ((x - 1) * rows + z).ToString();
+                // Comprueba si el espacio está ocupado
+                Collider[] hitColliders = Physics.OverlapSphere(position, 0.5f);
+                if (hitColliders.Length == 0) // Si no hay colliders en la posición
+                {
+                    // Selecciona un prefab aleatorio del array
+                    GameObject randomPrefab = prefab[Random.Range(0, prefab.Length)];
 
-                // Guarda la instancia en el array
-                gadgets[(x - 1) * rows + (z - 1)] = instance;
+                    // Instancia el prefab en la posición calculada
+                    instance = Instantiate(randomPrefab, position, Quaternion.identity);
+                    // Asigna un ID al GameObject instanciado
+                    instance.name = "Gadget" + ((x - 1) * rows + z).ToString();
 
-                // Encuentra el objeto Button en el prefab instanciado
+                    // Guarda la instancia en el array
+                    gadgets[(x - 1) * rows + (z - 1)] = instance;
+                }
+
+               /* // Encuentra el objeto Button en el prefab instanciado
                 GameObject button = instance.transform.Find("Grab/Button").gameObject;
 
                 // Genera un color aleatorio
@@ -81,12 +89,14 @@ public class SpawnObjects : MonoBehaviour
 
                 PrefabState ps = new PrefabState(instance.name, rcolor, button.tag);
                 prefabs.Add(ps);
-
+*/
 
             }
         }
         
         // Genera una lista con 20 IDs aleatorios
+        
+        /*
         for (int i = 0; i < 20; i++)
         {
             int randomID;
@@ -105,12 +115,11 @@ public class SpawnObjects : MonoBehaviour
             {
                 i -= 1;
             }
-            
+            */
         }
         
-        SavePrefabStates(prefabs, randomIDs);
-        
-    }
+       // SavePrefabStates(prefabs, randomIDs);
+       
 
     void SavePrefabStates(List<PrefabState> prefabs, List<string> ids)
     {

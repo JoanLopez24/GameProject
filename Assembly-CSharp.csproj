@@ -421,7 +421,7 @@
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Food_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Roman_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Tiles_M\Runway_M" />
-     <Folder Include="Assets\Prefabs\Kitchen" />
+     <Folder Include="Assets\ImportedPrefabs\Kitchen" />
      <Folder Include="Assets\Firebase" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Tiles_M\Bridges_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Tiles_T\Runway_T" />
@@ -435,7 +435,7 @@
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Terrains_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\- Animations\Position" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Terrains_T\Hexagons_T" />
-     <Folder Include="Assets\Prefabs\Simple" />
+     <Folder Include="Assets\ImportedPrefabs\Simple" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Fantasy_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Nature_T\Trees_T\Trees_Dead_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Amusement Park_T" />
@@ -448,6 +448,7 @@
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Terrains_M" />
      <Folder Include="Assets\Scripts\Hand" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <Folder Include="Assets\Prefabs" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Nature_M\Mushrooms_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Nature_M\Leaves_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\WW2_T" />
@@ -465,7 +466,7 @@
      <Folder Include="Assets\Mesh\Basketball\textures" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Tiles_T\Tile-buildings_T" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-     <Folder Include="Assets\Prefabs" />
+     <Folder Include="Assets\ImportedPrefabs" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Western_T" />
      <None Include="Assets\FirebaseJSON\google-services.json" />
      <Folder Include="Assets\Materials\Highlight" />
@@ -482,7 +483,7 @@
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Sport_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Scifi_M\Scifi Vehicles_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\WW2_M" />
-     <Folder Include="Assets\Prefabs\Gadgets" />
+     <Folder Include="Assets\ImportedPrefabs\Gadgets" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Buildings_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Nature_T\Stones_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Terrains_M\Worlds_M" />
@@ -501,7 +502,7 @@
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Nature_M\Leaves_M" />
      <Folder Include="Assets\Mesh\grenade\source" />
      <Folder Include="Assets\TextMesh Pro\Resources\Style Sheets" />
-     <Folder Include="Assets\Prefabs\Demo" />
+     <Folder Include="Assets\ImportedPrefabs\Demo" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Weapons_M" />
      <Folder Include="Assets\polyperfect" />
      <Folder Include="Assets\Mesh\mk-2-grenade" />
@@ -530,7 +531,7 @@
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Military_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Nature_M\Clouds_M" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Prefabs" />
-     <Folder Include="Assets\Prefabs\Poses" />
+     <Folder Include="Assets\ImportedPrefabs\Poses" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Space_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Racing_M" />
@@ -542,7 +543,7 @@
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Tiles_M\Tunnels_M" />
      <Folder Include="Assets\Mesh\Chest\textures" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Tiles_M\Runway_M" />
-     <Folder Include="Assets\Prefabs\Attachments" />
+     <Folder Include="Assets\ImportedPrefabs\Attachments" />
      <Folder Include="Assets\Editor Default Resources" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Tiles_T\Roads_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Terrains_T\Hexagons_T" />

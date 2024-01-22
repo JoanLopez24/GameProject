@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Slider3Btn
+  - SimpleBtn
+  - Slider
+  - MixedSet3
+  - Dial
+  - DoubleSlider
+  - BtnSet4L
+  - BtnSet3L
+  - Buttons
+  - Base
   layers:
   - Default
   - TransparentFX

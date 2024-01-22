@@ -7,7 +7,8 @@ public class PrefabState
     public string prefabID;
     public string color;
     public string prefabType;
-
+    public string solution;
+    public string[] components;
     public PrefabState()
     {
         
@@ -18,5 +19,12 @@ public class PrefabState
         this.prefabID = pid;
         this.color = col;
         this.prefabType = type;
+        
+
+    }
+
+    public void CreateSolution(string prefabType)
+    {
+        
     }
 }

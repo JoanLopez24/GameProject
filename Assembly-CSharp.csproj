@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6628be83-530a-d671-c680-423d67bbad46}</ProjectGuid>
+    <ProjectGuid>{26819f5d-f52d-44b5-b96e-79f78a57f135}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -68,6 +68,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
      <Compile Include="Assets\Scripts\Internal\KeyboardHand.cs" />
+     <Compile Include="Assets\_Creepy_Cat\Common Scripts\MouseLook.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
      <Compile Include="Assets\Scripts\Movement\AutoHandPlayer.cs" />
      <Compile Include="Assets\Scripts\Attributes\AutoLineAttribute.cs" />
@@ -92,9 +93,11 @@
      <Compile Include="Assets\Scripts_\SpawnObjects.cs" />
      <Compile Include="Assets\Scripts\Internal\HandStabilizer.cs" />
      <Compile Include="Assets\Scripts\Hand\WristLookEvent.cs" />
+     <Compile Include="Assets\_Creepy_Cat\_3D Scifi Kit Vol 1\Scripts\HoriDoorManager.cs" />
      <Compile Include="Assets\Scripts\Demo\Text Demo\TextFieldInspector.cs" />
      <Compile Include="Assets\Scripts\Grabbable\GrabbableCollisionHaptics.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+     <Compile Include="Assets\_Creepy_Cat\_3D Scifi Kit Vol 1\Scripts\DoorVert.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\Scripts\Demo\Gadget Demo\ButtonDemoRespawn.cs" />
      <Compile Include="Assets\Scripts\BETA\GrabbablePoseAnimaion.cs" />
@@ -126,6 +129,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
      <Compile Include="Assets\Scripts\Grabbable\PlacePoint.cs" />
+     <Compile Include="Assets\_Creepy_Cat\Common Scripts\Turn_Move.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
      <Compile Include="Assets\Scripts\Demo\Demo Scene\JointBreakStopForce1.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
@@ -152,9 +156,11 @@
      <Compile Include="Assets\Scripts\BETA\AutoGunTarget.cs" />
      <Compile Include="Assets\Scripts\Tools\AutoInputModule.cs" />
      <Compile Include="Assets\Scripts\Demo\Text Demo\TMPSizeProtector.cs" />
+     <Compile Include="Assets\_Creepy_Cat\_3D Scifi Kit Vol 1\Scripts\DoorHori.cs" />
      <Compile Include="Assets\Scripts\Demo\Demo Scene\PlatformMover.cs" />
      <Compile Include="Assets\Scripts\Internal\SerializedJointDrive.cs" />
      <Compile Include="Assets\Scripts\Gadgets\PhysicsGadgetHingeAngleReader.cs" />
+     <Compile Include="Assets\_Creepy_Cat\_3D Scifi Kit Vol 1\Scripts\OTween.cs" />
      <Compile Include="Assets\Scripts\Demo\Demo Scene\ToggleHandProjection.cs" />
      <Compile Include="Assets\Scripts\Templates\HandTouchEventDebugger.cs" />
      <Compile Include="Assets\Scripts\Movement\HeadCameraSmoothing.cs" />
@@ -167,6 +173,7 @@
      <Compile Include="Assets\Scripts\Demo\Demo Scene\ExplosionSource.cs" />
      <Compile Include="Assets\Scripts\Tools\CollisionSound.cs" />
      <Compile Include="Assets\Scripts\BETA\AutoBow.cs" />
+     <Compile Include="Assets\_Creepy_Cat\_3D Scifi Kit Vol 1\Scripts\VertDoorManager.cs" />
      <Compile Include="Assets\Scripts\Helpers\OnPlaceIgnoreHands.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
      <Compile Include="Assets\Scripts\Hand\HandAdvancedOptions.cs" />
@@ -179,6 +186,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
      <Compile Include="Assets\Scripts\Grabbable\GrabbableThrowEvent.cs" />
      <Compile Include="Assets\Scripts\Tools\PhysicsFollower.cs" />
+     <Compile Include="Assets\_Creepy_Cat\Common Scripts\AnimateSpriteSheet.cs" />
      <Compile Include="Assets\Scripts\Demo\Demo Scene\TomatoSpawner.cs" />
      <Compile Include="Assets\Scripts\Tools\Stickable.cs" />
      <Compile Include="Assets\Scripts\Demo\Demo Scene\OpenLink.cs" />
@@ -234,6 +242,7 @@
      <Compile Include="Assets\Scripts\BETA\AutoAmmo.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\- Animations\Scale\Scale Appear" />
+     <Folder Include="Assets\_Creepy_Cat\_3D Scifi Kit Vol 1\Scripts" />
      <Folder Include="Assets\FirebaseJSON" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Scifi_M" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -243,7 +252,9 @@
      <Folder Include="Assets\Firebase\m2repository\com\google" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Buildings_T" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Sprites" />
+     <Folder Include="Assets\_Creepy_Cat\_3D Scifi Kit Vol 1\Textures" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Buildings_M\parts" />
+     <Folder Include="Assets\_Creepy_Cat\Common Scripts" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Tiles_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Weapons_T" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -257,7 +268,10 @@
      <Folder Include="Assets\TextMesh Pro\Sprites" />
      <Folder Include="Assets\Mesh\Materials" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Tiles_T\Tunnels_T" />
+     <Folder Include="Assets\Sci-Fi Styled Modular Pack\Models\Materials" />
+     <Folder Include="Assets\MilkyWay\Texture" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Scifi_M\Scifi City_M" />
+     <Folder Include="Assets\_Creepy_Cat\_3D Scifi Kit Vol 1\Prefabs\Fences" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\People_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Buildings_M" />
      <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
@@ -265,12 +279,17 @@
      <Folder Include="Assets\Scripts\Internal" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Terrains_T\Islands_T" />
      <Folder Include="Assets\Scripts\Demo\Text Demo" />
+     <Folder Include="Assets\Sci-Fi Styled Modular Pack\Prefabs\Machines" />
+     <Folder Include="Assets\Sci-Fi Styled Modular Pack\Prefabs\Joints" />
      <Folder Include="Assets\Firebase\m2repository" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Medieval_T" />
+     <Folder Include="Assets\_Creepy_Cat\_3D Scifi Kit Vol 1\Textures\_Skybox" />
      <Folder Include="Assets\Mesh\TrainingDummy\textures" />
      <Folder Include="Assets\Firebase\m2repository\com\google\firebase\firebase-auth-unity\11.6.0" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Tiles_T\Rails_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Vehicles_M\Cars_M" />
+     <Folder Include="Assets\Sci-Fi Styled Modular Pack\Prefabs\Windows\Complete Windows" />
+     <Folder Include="Assets\Sci-Fi Styled Modular Pack\Prefabs\Decorative elements\Arts" />
      <Folder Include="Assets\Mesh\TrainingDummy" />
      <Folder Include="Assets\Scripts\Demo\Demo Scene" />
      <Folder Include="Assets\Mesh\grenade\textures" />
@@ -291,6 +310,7 @@
      <Folder Include="Assets\Scripts\Demo\Gadget Demo" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Vehicles_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Terrains_T\Planes_T" />
+     <Folder Include="Assets\Sci-Fi Styled Modular Pack\Prefabs\Walls" />
      <Folder Include="Assets\Mesh\Chest\Materials" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Vehicles_M\Air_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\People_M" />
@@ -324,6 +344,7 @@
      <Folder Include="Assets\Scripts\BETA" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\India_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Western_M" />
+     <Folder Include="Assets\Sci-Fi Styled Modular Pack\Example scenes" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Egypt_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\- Textures" />
@@ -363,29 +384,36 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <Folder Include="Assets\Scripts\Attributes" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\People_T\Rigs_T" />
+     <Folder Include="Assets\Sci-Fi Styled Modular Pack\Prefabs" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Terrains_T" />
      <Folder Include="Assets\Mesh\TrainingDummy\source" />
      <Folder Include="Assets\Scripts_" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Beach_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Nature_M\Stones_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Nature_T\Clouds_T" />
+     <Folder Include="Assets\Sci-Fi Styled Modular Pack\Prefabs\Walls\Simple" />
+     <Folder Include="Assets\Sci-Fi Styled Modular Pack\Prefabs\Floors" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Medieval_T" />
+     <Folder Include="Assets\_Creepy_Cat\_3D Scifi Kit Vol 1\Meshes" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\- Animations\Scale" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Pirates_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Zulu_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Drinks_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Farm_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Nature_M\Trees_M" />
+     <Folder Include="Assets\Sci-Fi Styled Modular Pack\Prefabs\Decorative elements\Column" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Props_M\Materials" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Scifi_T\Scifi Vehicles_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Electronics_M" />
      <Folder Include="Assets\Resources" />
+     <Folder Include="Assets\_Creepy_Cat\_3D Scifi Kit Vol 1\Prefabs\Others" />
      <Folder Include="Assets\Firebase\Plugins\x86_64" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Animals_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Resources_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Vehicles_T\boats" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\WW2_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\- Animations" />
+     <Folder Include="Assets\_Creepy_Cat\_3D Scifi Kit Vol 1\Prefabs\PlateForm" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Tiles_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Nature_T" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
@@ -405,9 +433,11 @@
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Electronics_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Animals_M" />
      <Folder Include="Assets\Mesh" />
+     <Folder Include="Assets\_Creepy_Cat\_3D Scifi Kit Vol 1\Particles" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Construction_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Props_T\City_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Nature_T\Mushrooms_T" />
+     <Folder Include="Assets\Sci-Fi Styled Modular Pack\Prefabs\Walls\Half walls" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Props_T\Pier_T" />
      <Folder Include="Assets\Mesh\Chest\source" />
      <Folder Include="Assets\Mesh\Gloves\textures" />
@@ -419,12 +449,15 @@
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Survival_T" />
      <Folder Include="Assets\Mesh\Target" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Food_T" />
+     <Folder Include="Assets\Sci-Fi Styled Modular Pack\Textures" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Roman_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Tiles_M\Runway_M" />
+     <Folder Include="Assets\_Creepy_Cat\_3D Scifi Kit Vol 1\Prefabs\Roof" />
      <Folder Include="Assets\ImportedPrefabs\Kitchen" />
      <Folder Include="Assets\Firebase" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Tiles_M\Bridges_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Tiles_T\Runway_T" />
+     <Folder Include="Assets\Sci-Fi Styled Modular Pack\Materials\Palletes" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Nature_M\Clouds_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\India_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Terrains_M\Worlds_M" />
@@ -443,11 +476,13 @@
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Vehicles_M" />
+     <Folder Include="Assets\MilkyWay\Material" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Materials" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Japan_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Terrains_M" />
      <Folder Include="Assets\Scripts\Hand" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <Folder Include="Assets\_Creepy_Cat\_3D Scifi Kit Vol 1" />
      <Folder Include="Assets\Prefabs" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Nature_M\Mushrooms_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Nature_M\Leaves_M" />
@@ -455,6 +490,8 @@
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Dishes_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Sport_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Terrains_T\Islands_T" />
+     <Folder Include="Assets\_Creepy_Cat\_3D Scifi Kit Vol 1\Prefabs\Floors" />
+     <Folder Include="Assets\Sci-Fi Styled Modular Pack\Prefabs\Extended Primitives" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Tiles-NB_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Resources_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\- Animations\People Animation" />
@@ -471,21 +508,27 @@
      <None Include="Assets\FirebaseJSON\google-services.json" />
      <Folder Include="Assets\Materials\Highlight" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Vehicles_T" />
+     <None Include="Assets\_Creepy_Cat\_3D Scifi Kit Vol 1\_Help FAQ ReaDMe SOS Doors.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Scifi_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\India_M" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-auth-unity\maven-metadata.xml" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Electronics_T" />
+     <Folder Include="Assets\Sci-Fi Styled Modular Pack\Models" />
+     <Folder Include="Assets\_Creepy_Cat\_3D Scifi Kit Vol 1\Prefabs\Walls" />
      <Folder Include="Assets\Scripts\Grabbable" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Western_M" />
      <Folder Include="Assets\Scenes" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Sport_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Scifi_M\Scifi Vehicles_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\WW2_M" />
+     <Folder Include="Assets\Sci-Fi Styled Modular Pack\Prefabs\Doors" />
+     <Folder Include="Assets\_Creepy_Cat\_3D Scifi Kit Vol 1\Prefabs" />
      <Folder Include="Assets\ImportedPrefabs\Gadgets" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Buildings_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Nature_T\Stones_T" />
+     <Folder Include="Assets\Sci-Fi Styled Modular Pack\Prefabs\Corridors" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Terrains_M\Worlds_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Nature_T\Trees_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Scifi_M" />
@@ -493,10 +536,12 @@
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Space_M" />
      <Folder Include="Assets\TextMesh Pro\Shaders" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Drinks_T" />
+     <Folder Include="Assets\Sci-Fi Styled Modular Pack" />
      <Folder Include="Assets\Scripts\Tools" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Nature_M\Grass_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Roman_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Vehicles_M" />
+     <Folder Include="Assets\Sci-Fi Styled Modular Pack\Example scenes\Materials" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Sprite Assets" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Nature_M\Sea_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Nature_M\Leaves_M" />
@@ -515,11 +560,14 @@
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Animals_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Tiles_T\Race_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Electronics_M" />
+     <Folder Include="Assets\Sci-Fi Styled Modular Pack\Prefabs\Lights" />
      <Folder Include="Assets\Mesh\Gloves\source\Boxing Glove" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Furniture_M" />
+     <Folder Include="Assets\_Creepy_Cat\_3D Scifi Kit Vol 1\Textures\_Anims" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Terrains_T\Worlds_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Pirates_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Props_M" />
+     <Folder Include="Assets\_Creepy_Cat\_3D Scifi Kit Vol 1\_Example_01" />
      <Folder Include="Assets\Editor Default Resources\Firebase" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Nature_M\Flowers_M" />
@@ -529,6 +577,8 @@
      <Folder Include="Assets\Mesh\Target\source" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Furniture_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Military_T" />
+     <Folder Include="Assets\_Creepy_Cat" />
+     <Folder Include="Assets\_Creepy_Cat\_3D Scifi Kit Vol 1\Sound" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Nature_M\Clouds_M" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Prefabs" />
      <Folder Include="Assets\ImportedPrefabs\Poses" />
@@ -557,6 +607,7 @@
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Nature_T\Ice_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Racing_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Weapons_T" />
+     <Folder Include="Assets\_Creepy_Cat\_3D Scifi Kit Vol 1\Prefabs\Lights" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Apocalypse_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Props_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Tiles_T\Runway_T" />
@@ -575,6 +626,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Props_M\Pier_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Nature_T\Flowers_T" />
+     <Folder Include="Assets\_Creepy_Cat\_3D Scifi Kit Vol 1\Prefabs\Lego" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Beach_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Food_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Tiles_T\Bridges_T" />
@@ -582,14 +634,18 @@
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Tools_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\- Animations\Rotation" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Scifi_M\Scifi Furniture_M" />
+     <Folder Include="Assets\_Creepy_Cat\_3D Scifi Kit Vol 1\Materials" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Props_M\Fence_M" />
+     <Folder Include="Assets\Sci-Fi Styled Modular Pack\Prefabs\Stairs" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Nature_M\Trees_M\Trees_Dead_M" />
      <Folder Include="Assets\Firebase\m2repository\com\google\firebase\firebase-database-unity\11.6.0" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\People_T\Rigs_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Tiles_M\Rails_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Fantasy_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Japan_M" />
+     <Folder Include="Assets\Sci-Fi Styled Modular Pack\Animations" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Tools_T" />
+     <Folder Include="Assets\Sci-Fi Styled Modular Pack\Materials" />
      <Folder Include="Assets\Scripts\Gadgets" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Tiles_M\Tile-buildings_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Food_M" />
@@ -613,7 +669,9 @@
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T" />
      <Folder Include="Assets\TextMesh Pro\Documentation" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Buildings_T\Parts_T" />
+     <Folder Include="Assets\MilkyWay" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Dishes_T" />
+     <None Include="Assets\Sci-Fi Styled Modular Pack\Readme.txt" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Music_T" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras" />
      <Folder Include="Assets\Mesh\Basketball" />
@@ -621,6 +679,7 @@
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\- Terrains" />
      <Folder Include="Assets\Scripts\Demo" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Construction_T" />
+     <Folder Include="Assets\Sci-Fi Styled Modular Pack\Prefabs\Decorative elements" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Construction_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Sport_M" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
@@ -628,6 +687,7 @@
      <Folder Include="Assets\Materials\Physics" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Scifi_T\Scifi City_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Japan_T" />
+     <Folder Include="Assets\_Creepy_Cat\_3D Scifi Kit Vol 1\Prefabs\Doors" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Fonts &amp; Materials" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Medieval_M" />
      <Folder Include="Assets\Scripts\Attributes\NaughtyAttributes" />
@@ -635,6 +695,7 @@
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Color Gradient Presets" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\Sport_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Construction_M" />
+     <Folder Include="Assets\MilkyWay\Scenes" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Meshes_T\People_T" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Terrains_T\Planes_T" />
@@ -645,11 +706,14 @@
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Tiles_M\Roads_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Zulu_T" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <Folder Include="Assets\_Creepy_Cat\_3D Scifi Kit Vol 1\Prefabs\Pipes" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Food_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Nature_T\Leaves_T" />
+     <Folder Include="Assets\Sci-Fi Styled Modular Pack\Prefabs\Decorative elements\Tables" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\T\- Prefabs_T\Scifi_T" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M" />
+     <Folder Include="Assets\Sci-Fi Styled Modular Pack\Prefabs\Windows" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Resources_M" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -901,28 +965,28 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="ReportGeneratorMerged">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
      </Reference>
      <Reference Include="Firebase.App">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Assets\Firebase\Plugins\Firebase.App.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Assets\Firebase\Plugins\Firebase.App.dll</HintPath>
      </Reference>
      <Reference Include="Firebase.TaskExtension">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Assets\Firebase\Plugins\Firebase.TaskExtension.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Assets\Firebase\Plugins\Firebase.TaskExtension.dll</HintPath>
      </Reference>
      <Reference Include="Firebase.Auth">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Assets\Firebase\Plugins\Firebase.Auth.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Assets\Firebase\Plugins\Firebase.Auth.dll</HintPath>
      </Reference>
      <Reference Include="Firebase.Database">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Assets\Firebase\Plugins\Firebase.Database.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Assets\Firebase\Plugins\Firebase.Database.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\PackageCache\com.unity.visualscripting@1.9.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Library\PackageCache\com.unity.visualscripting@1.9.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Firebase.Platform">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Assets\Firebase\Plugins\Firebase.Platform.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Assets\Firebase\Plugins\Firebase.Platform.dll</HintPath>
      </Reference>
      <Reference Include="Google.MiniJson">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Assets\Firebase\Plugins\Google.MiniJson.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Assets\Firebase\Plugins\Google.MiniJson.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Xcode">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -1306,86 +1370,86 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
      </Reference>
      <Reference Include="Unity.EditorCoroutines.Editor">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
      </Reference>
      <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline.Editor">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VSCode.Editor">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="NaughtyAttributes.Editor.csproj">
-      <Project>{4c891fe6-756e-f0cc-5eca-3800167aa5a8}</Project>
+      <Project>{8ee2ef14-ef87-96e1-1b60-bbacd6e903c6}</Project>
       <Name>NaughtyAttributes.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="NaughtyAttributes.Core.csproj">
-      <Project>{20435d3f-b1cc-9ae4-2a9a-78a9e51f2a1f}</Project>
+      <Project>{07488078-52aa-d32d-bac4-0c83c7b16559}</Project>
       <Name>NaughtyAttributes.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Polyperfect.Common.csproj">
-      <Project>{1efab55b-07e8-3cca-fec8-d0c0f05cd56e}</Project>
+      <Project>{1149a739-0317-c809-be50-fdf761d3c560}</Project>
       <Name>Polyperfect.Common</Name>
     </ProjectReference>
   </ItemGroup>

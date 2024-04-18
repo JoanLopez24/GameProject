@@ -15,7 +15,7 @@ public class TestButtonPress : MonoBehaviour
     // Color de emisión cuando el objeto está "apagado"
     public Color offColor = Color.black;
 
-    private bool buttonPressed;
+    public bool buttonPressed;
 
     private void Awake()
     {
@@ -26,7 +26,7 @@ public class TestButtonPress : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Debug.Log(gameObject.transform.parent.gameObject.transform.parent.name);
+       // Debug.Log(gameObject.transform.parent.gameObject.transform.parent.name);
         
         // Comprueba si la emisión está encendida
                 if (rend.material.GetColor("_EmissionColor") == onColor && myLight.enabled)

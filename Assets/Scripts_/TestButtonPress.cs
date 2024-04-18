@@ -19,6 +19,6 @@ public class TestButtonPress : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Debug.Log(gameObject.transform.parent.gameObject.name);
+        Debug.Log(gameObject.transform.parent.gameObject.transform.parent.name);
     }
 }

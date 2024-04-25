@@ -6,12 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="893f8ad0-29e5-4a48-9bef-60ec94383568" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GProject/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MixedSet3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MixedSet3.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Slider3Btn.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Slider3Btn.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gadgets/PhysicsGadgetConfigurableLimitReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gadgets/PhysicsGadgetConfigurableLimitReader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts_/PrefabState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts_/PrefabState.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts_/SpawnObjects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts_/SpawnObjects.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
+=======
+>>>>>>> main
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,10 +105,14 @@
       <workItem from="1706516996249" duration="4024000" />
       <workItem from="1706521776310" duration="7017000" />
       <workItem from="1708586392666" duration="4534000" />
+<<<<<<< HEAD
       <workItem from="1713425633546" duration="2886000" />
       <workItem from="1713433485772" duration="3436000" />
       <workItem from="1713770461772" duration="604000" />
       <workItem from="1714024996626" duration="348000" />
+=======
+      <workItem from="1713425633546" duration="831000" />
+>>>>>>> main
     </task>
     <servers />
   </component>

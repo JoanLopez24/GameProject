@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{26819f5d-f52d-44b5-b96e-79f78a57f135}</ProjectGuid>
+    <ProjectGuid>{6628be83-530a-d671-c680-423d67bbad46}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -57,7 +57,6 @@
      <Compile Include="Assets\Scripts\Hand\HandPoseArea.cs" />
      <Compile Include="Assets\Scripts\Movement\Teleporter.cs" />
      <Compile Include="Assets\Scripts\Hand\Hand.cs" />
-     <Compile Include="Assets\Scripts_\Test.cs" />
      <Compile Include="Assets\Scripts\BETA\HeldPlaceJoint.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
      <Compile Include="Assets\XR\Scripts\XRHandControllerLink.cs" />
@@ -140,6 +139,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
      <Compile Include="Assets\Scripts\Templates\PlacePointEventDebugger.cs" />
      <Compile Include="Assets\Scripts\Demo\Demo Scene\Spinner.cs" />
+     <Compile Include="Assets\Scripts_\Test\TestButtonPress.cs" />
      <Compile Include="Assets\Scripts\Hand\HandPublicEvents.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
@@ -203,12 +203,13 @@
      <Compile Include="Assets\Scripts\Attributes\AutoToggleHeaderAttribute.cs" />
      <Compile Include="Assets\Scripts\Movement\InterpolationController.cs" />
      <Compile Include="Assets\Scripts\Gadgets\PhysicsGadgetJoystick.cs" />
-     <Compile Include="Assets\Scripts_\TestButtonPress.cs" />
      <Compile Include="Assets\Scripts\Grabbable\GrabbableExtensions.cs" />
      <Compile Include="Assets\Scripts\Hand\HandCollisionHaptics.cs" />
+     <Compile Include="Assets\Scripts_\Test\TestSolution.cs" />
      <Compile Include="Assets\Scripts\Tools\Sticky.cs" />
      <Compile Include="Assets\XR\Scripts\XRHandOffset.cs" />
      <Compile Include="Assets\Scripts\Movement\IgnoreHandPlayerCollision.cs" />
+     <Compile Include="Assets\Scripts_\Test\Test.cs" />
      <Compile Include="Assets\Scripts\Gadgets\PhysicsGadgetSlider.cs" />
      <Compile Include="Assets\Scripts\Movement\InterpolatedTransformUpdater.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
@@ -592,6 +593,7 @@
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Nature_M\Ice_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Nature_M" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Meshes_M\Nature_M\Ice_M" />
+     <Folder Include="Assets\Scripts_\Test" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Tiles_M\Tunnels_M" />
      <Folder Include="Assets\Mesh\Chest\textures" />
      <Folder Include="Assets\polyperfect\Low Poly Ultimate Pack\M\- Prefabs_M\Tiles_M\Runway_M" />
@@ -967,6 +969,7 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="ReportGeneratorMerged">
+<<<<<<< HEAD
      <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
      </Reference>
      <Reference Include="Firebase.App">
@@ -989,6 +992,30 @@
      </Reference>
      <Reference Include="Google.MiniJson">
      <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Assets\Firebase\Plugins\Google.MiniJson.dll</HintPath>
+=======
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+     </Reference>
+     <Reference Include="Firebase.App">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Assets\Firebase\Plugins\Firebase.App.dll</HintPath>
+     </Reference>
+     <Reference Include="Firebase.TaskExtension">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Assets\Firebase\Plugins\Firebase.TaskExtension.dll</HintPath>
+     </Reference>
+     <Reference Include="Firebase.Auth">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Assets\Firebase\Plugins\Firebase.Auth.dll</HintPath>
+     </Reference>
+     <Reference Include="Firebase.Database">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Assets\Firebase\Plugins\Firebase.Database.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\PackageCache\com.unity.visualscripting@1.9.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Firebase.Platform">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Assets\Firebase\Plugins\Firebase.Platform.dll</HintPath>
+     </Reference>
+     <Reference Include="Google.MiniJson">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Assets\Firebase\Plugins\Google.MiniJson.dll</HintPath>
+>>>>>>> main
      </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Xcode">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -1372,6 +1399,7 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
+<<<<<<< HEAD
      <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
@@ -1439,19 +1467,88 @@
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
      <HintPath>C:\Users\Yuureitora\Documents\GitHub\GProject\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+=======
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.EditorCoroutines.Editor">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UI">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.PlasticSCM.Editor">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State.Editor">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline.Editor">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Shared.Editor">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualStudio.Editor">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Core">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UI">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Core.Editor">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Rider.Editor">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro.Editor">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VSCode.Editor">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow.Editor">
+     <HintPath>C:\Users\joanl\OneDrive\Escritorio\JOVIAT2\UnityProjects\GitHub\SintesisGameProject\GameProject\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+>>>>>>> main
      </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="NaughtyAttributes.Editor.csproj">
-      <Project>{8ee2ef14-ef87-96e1-1b60-bbacd6e903c6}</Project>
+      <Project>{4c891fe6-756e-f0cc-5eca-3800167aa5a8}</Project>
       <Name>NaughtyAttributes.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="NaughtyAttributes.Core.csproj">
-      <Project>{07488078-52aa-d32d-bac4-0c83c7b16559}</Project>
+      <Project>{20435d3f-b1cc-9ae4-2a9a-78a9e51f2a1f}</Project>
       <Name>NaughtyAttributes.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Polyperfect.Common.csproj">
-      <Project>{1149a739-0317-c809-be50-fdf761d3c560}</Project>
+      <Project>{1efab55b-07e8-3cca-fec8-d0c0f05cd56e}</Project>
       <Name>Polyperfect.Common</Name>
     </ProjectReference>
   </ItemGroup>

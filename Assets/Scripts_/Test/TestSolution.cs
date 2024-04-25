@@ -11,11 +11,13 @@ public class TestSolution : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         int x = 0;
         foreach (GameObject prefab in prefabs)
         {
-            Debug.Log(prefab.name);
+            //Debug.Log(prefab.name);
             PrefabState ps = new PrefabState(x.ToString(), prefab.name);
+            ps.CreateSolution();
             prefabStates.Add(ps);
             x++;
         }
@@ -33,11 +35,12 @@ public class TestSolution : MonoBehaviour
 
     void Check()
     {
+        Debug.Log("PS COUNT: " + prefabStates.Count);
         if (prefabStates.Count > 0)
         {
             foreach (PrefabState ps in prefabStates)
             {
-                Debug.Log("Id: " + ps.prefabID + " Type: " + ps.prefabType);
+                Debug.Log(ps);
             }
         }
         

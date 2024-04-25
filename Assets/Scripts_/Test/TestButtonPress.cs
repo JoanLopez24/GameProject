@@ -14,7 +14,6 @@ public class TestButtonPress : MonoBehaviour
 
     // Color de emisión cuando el objeto está "apagado"
     public Color offColor = Color.black;
-
     public bool buttonPressed;
 
     private void Awake()
@@ -44,4 +43,11 @@ public class TestButtonPress : MonoBehaviour
                     buttonPressed = true;
                 }
     }
+
+    public Boolean CheckSolution(String solution)
+    {
+        Boolean validation = false;
+        
+        return validation;
+    } 
 }

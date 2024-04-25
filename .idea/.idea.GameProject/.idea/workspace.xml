@@ -6,13 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d5194066-d0dd-4c75-a680-97461b368cca" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Red Plastic.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Red Plastic.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts_/Test.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts_/Test.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts_/TestButtonPress.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts_/TestButtonPress.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts_/PrefabState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts_/PrefabState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts_/Test/TestButtonPress.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts_/Test/TestButtonPress.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts_/Test/TestSolution.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts_/Test/TestSolution.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +116,8 @@
       <workItem from="1705570236993" duration="4001000" />
       <workItem from="1705911267105" duration="11685000" />
       <workItem from="1713427902044" duration="1086000" />
-      <workItem from="1713429650355" duration="2277000" />
+      <workItem from="1713429650355" duration="2871000" />
+      <workItem from="1714025493672" duration="2514000" />
     </task>
     <servers />
   </component>

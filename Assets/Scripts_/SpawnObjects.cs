@@ -127,6 +127,8 @@ public class SpawnObjects : MonoBehaviour
                        // Debug.Log(psb.color);
                         ps.addComponent(psb);
                     }
+                    // Llama a CreateSolution para determinar la solución y asignarla
+                    ps.CreateSolution();
 
                     prefabs.Add(ps);
                 }

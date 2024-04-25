@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -34,6 +35,7 @@ namespace Autohand{
                 positive = !positive;
 
             value = Vector3.Distance(axisPos, currPos)/joint.linearLimit.limit;
+            Debug.Log("valor slider: " + value);
 
             if(!positive) value *= -1;
 

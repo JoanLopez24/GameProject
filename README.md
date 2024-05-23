@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GameProject
 
 ## Trello:  
@@ -8,3 +9,6 @@ https://docs.google.com/spreadsheets/d/1HbOLSip40mFMSdKiMv3g7pmphqAmEYHMH3U00koo
 
 ## GDOC:  
 https://docs.google.com/document/d/14P5nHMzxT79Rkc1hIHBp4UZPnyM1IrBZa7obdOBW-U4/edit?usp=sharing
+=======
+# GameProject
+>>>>>>> f2531c0031c92e5448d0edfe6e8f4c2c0db898b3
